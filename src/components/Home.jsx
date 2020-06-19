@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
 import { Jumbotron, container, Accordion, Card, Button } from 'react-bootstrap';
 import './Home.css';
 import ReactPlayer from 'react-player'

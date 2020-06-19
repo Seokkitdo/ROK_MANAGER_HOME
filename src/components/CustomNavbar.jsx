@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
+import './MainComponent';
+
 function CustomNavbar() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function CustomNavbar() {
           
           
         </Navbar.Collapse>
+        
       </Navbar>
     </div>
   );
