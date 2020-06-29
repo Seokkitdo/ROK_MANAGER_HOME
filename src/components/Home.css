@@ -1,6 +1,13 @@
-.jumbotron {
-  height: 100vh;
+.jumbotron{
+  margin: 0px;
 }
+
+.translation_drop{
+  float : right;
+  margin-top: -40px;
+  
+}
+
 .person-wrapper {
   margin-bottom: 2em;
 }
@@ -42,8 +49,8 @@
   outline: none;
   border-radius: 50%;
   border-color: #DDE0E3;
-  position: absolute;
-  top: 85%;
+  position: relative;
+  bottom: 30px;
   left: 25% 
 }
 .radius_button img{

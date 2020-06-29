@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
-import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
-import './MainComponent';
+import {Navbar, Nav} from 'react-bootstrap'
+
 
 function CustomNavbar() {
   return (
@@ -11,7 +11,7 @@ function CustomNavbar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-          <Nav.Link href="/about" to="/about">Update</Nav.Link>
+          <Nav.Link href="/Update" to="/Update">Update</Nav.Link>
             
           </Nav>
           
