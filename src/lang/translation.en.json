@@ -1,5 +1,6 @@
 {
-  "head.title" : "Welcome to ROK-BUF-MANAGER",
+  "head.title" : "Welcome to ROK-MANAGER!",
+  "rok.manager.description" : "This is the ROK-MANAGER Usage page.",
   "Accodion.1" : "1. What is ROK-MANAGER?",
   "Accodion.2" : "2. What is title management?",
   "Accodion.3" : "3. What are the first-come-first-served functions of ossiris/waste?",

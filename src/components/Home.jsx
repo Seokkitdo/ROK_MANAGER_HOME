@@ -3,7 +3,7 @@ import { Jumbotron, container, Accordion, Card, Button } from 'react-bootstrap';
 import './Home.css';
 import ReactPlayer from 'react-player'
 import MainComponent from './Maincomponent.jsx';
-import {withTranslation} from 'react-i18next'
+import {withTranslation} from 'react-i18next';
 
 
 
@@ -43,7 +43,7 @@ import {withTranslation} from 'react-i18next'
           </div>
         
     <h2>{t('head.title')}</h2>
-          <p>This is how to build a website with React, React-Router & React-Bootstrap</p>
+          <p>{t('rok.manager.description')}</p>
           <Button bsStyle="primary" onClick={() => this.onclickVideo()} >Watch Demo Video</Button>
           <Button className="btn-primary2" onClick={() => this.moveLink()}>Go to Site</Button>
 
@@ -153,7 +153,15 @@ import {withTranslation} from 'react-i18next'
           </Accordion>
           <br/>
           <br/>
-          <button  className="radius_button"><img width = "100px" height="100px" src="assets/kakao.png" alt="my image" onClick={this.moveLink_naver} /></button>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+         
+          
         </Jumbotron>
         
       </container>
