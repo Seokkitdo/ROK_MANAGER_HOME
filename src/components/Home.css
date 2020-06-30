@@ -8,6 +8,10 @@
   
 }
 
+.bottom_align{
+  text-align: center;
+  margin-bottom: 30px;
+}
 .person-wrapper {
   margin-bottom: 2em;
 }

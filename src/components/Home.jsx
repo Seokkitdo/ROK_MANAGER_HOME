@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { Jumbotron, container, Accordion, Card, Button } from 'react-bootstrap';
+import { Jumbotron, container, Accordion, Card, Button, Modal } from 'react-bootstrap';
 import './Home.css';
 import ReactPlayer from 'react-player'
-import MainComponent from './Maincomponent.jsx';
+import MainComponent from './MainComponent.jsx';
 import {withTranslation} from 'react-i18next';
-
+import ModalExample from './ModalExample.jsx';
 
 
  class Home extends Component {
@@ -154,16 +154,16 @@ import {withTranslation} from 'react-i18next';
           <br/>
           <br/>
           <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
+          <ModalExample buttonLabel={"Line QR Code"}></ModalExample>
+
+
+          
          
           
         </Jumbotron>
-        
+        <div className = "bottom_align">
+        <h1>Q&A : star940103@kakao.com</h1>
+        </div>
       </container>
     )
   }
