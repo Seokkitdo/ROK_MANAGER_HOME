@@ -3,7 +3,7 @@ import { withTranslation } from "react-i18next";
 import i18next from "../lang/i18n";
 import { Dropdown } from "react-bootstrap";
 
-class MainComponent extends Component {
+class Maincomponent extends Component {
     state = {
         languageTitle: "English"
     }
@@ -34,5 +34,5 @@ class MainComponent extends Component {
     }
 }
 
-export default withTranslation()(MainComponent);
+export default withTranslation()(Maincomponent);
 

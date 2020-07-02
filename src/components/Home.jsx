@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Jumbotron, container, Accordion, Card, Button, Modal } from 'react-bootstrap';
 import './Home.css';
 import ReactPlayer from 'react-player'
-import MainComponent from './MainComponent.jsx';
+import Maincomponent from './Maincomponent.jsx';
 import {withTranslation} from 'react-i18next';
 import ModalExample from './ModalExample.jsx';
 
@@ -39,7 +39,7 @@ import ModalExample from './ModalExample.jsx';
       <container>
         <Jumbotron>
         <div className="translation_drop">
-        <MainComponent></MainComponent>
+        <Maincomponent></Maincomponent>
           </div>
         
     <h2>{t('head.title')}</h2>
