@@ -37,11 +37,16 @@ import ModalExample from './ModalExample.jsx';
     const {t} = this.props
     return (
       <container>
+<<<<<<< HEAD
         <Jumbotron>
         <div className="translation_drop">
         <Maincomponent></Maincomponent>
+=======
+                <div className="translation_drop">
+        <MainComponent></MainComponent>
+>>>>>>> a90f651708d8ffc7e7eb2f50e8532edb02a50c94
           </div>
-        
+        <Jumbotron>
     <h2>{t('head.title')}</h2>
           <p>{t('rok.manager.description')}</p>
           <Button bsStyle="primary" onClick={() => this.onclickVideo()} >Watch Demo Video</Button>
@@ -62,12 +67,12 @@ import ModalExample from './ModalExample.jsx';
           <Accordion>
             <Card>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                <Accordion.Toggle as={Button} variant="link" eventKey="0"style={{textAlign:"center"}}>
                 {t('Accodion.1')}
               </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body>{t('Accodion.1.context')}</Card.Body>
+                <Card.Body >{t('Accodion.1.context')}</Card.Body>
               </Accordion.Collapse>
             </Card>
 
@@ -77,12 +82,12 @@ import ModalExample from './ModalExample.jsx';
 
             <Card>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="2">
+                <Accordion.Toggle as={Button} variant="link" eventKey="2" style={{textAlign:"left"}}>
                 {t('Accodion.2')}
               </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="2">
-                <Card.Body>{t('Accodion.2.context')}</Card.Body>
+                <Card.Body >{t('Accodion.2.context')}</Card.Body>
               </Accordion.Collapse>
             </Card>
 
@@ -90,12 +95,12 @@ import ModalExample from './ModalExample.jsx';
 
             <Card>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="3">
+                <Accordion.Toggle as={Button} variant="link" eventKey="3" style={{textAlign:"left"}}>
                 {t('Accodion.3')}
               </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="3">
-                <Card.Body>{t('Accodion.3.context')}</Card.Body>
+                <Card.Body style={{textAlign:"center"}}>{t('Accodion.3.context')}</Card.Body>
               </Accordion.Collapse>
             </Card>
 
@@ -104,7 +109,7 @@ import ModalExample from './ModalExample.jsx';
 
             <Card>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="4">
+                <Accordion.Toggle as={Button} variant="link" eventKey="4"style={{textAlign:"left"}}>
                 {t('Accodion.4')}
               </Accordion.Toggle>
               </Card.Header>
@@ -118,7 +123,7 @@ import ModalExample from './ModalExample.jsx';
 
             <Card>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="5">
+                <Accordion.Toggle as={Button} variant="link" eventKey="5"style={{textAlign:"left"}}>
                 {t('Accodion.5')}
               </Accordion.Toggle>
               </Card.Header>
@@ -130,7 +135,7 @@ import ModalExample from './ModalExample.jsx';
 
             <Card>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="6">
+                <Accordion.Toggle as={Button} variant="link" eventKey="6"style={{textAlign:"left"}}>
                 {t('Accodion.6')}
               </Accordion.Toggle>
               </Card.Header>
@@ -141,7 +146,7 @@ import ModalExample from './ModalExample.jsx';
 
             <Card>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="7">
+                <Accordion.Toggle as={Button} variant="link" eventKey="7"style={{textAlign:"left"}}>
                 {t('Accodion.7')}
               </Accordion.Toggle>
               </Card.Header>
@@ -154,7 +159,7 @@ import ModalExample from './ModalExample.jsx';
           <br/>
           <br/>
           <br/>
-          <ModalExample buttonLabel={"Line QR Code"}></ModalExample>
+        
 
 
           
@@ -162,7 +167,8 @@ import ModalExample from './ModalExample.jsx';
           
         </Jumbotron>
         <div className = "bottom_align">
-        <h1>Q&A : star940103@kakao.com</h1>
+        <h1 style={{color: "#ffffff", fontSize:"1.5rem",paddingTop:"20px"}}>Contact us: star940103@kakao.com</h1>
+        <ModalExample buttonLabel={<img src="https://seeklogo.net/wp-content/uploads/2018/10/line-logo.png" style={{width:"90px",border:"none", textAlign:"center"}}></img>}> </ModalExample>
         </div>
       </container>
     )

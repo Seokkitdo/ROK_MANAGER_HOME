@@ -23,7 +23,7 @@ class ModalExample extends React.Component {
   render() {
     return (
       <div>
-        <Button className = "btn-line" onClick={this.toggle}>
+        <Button className = "btn-line" onClick={this.toggle} style={{backgroundColor:"#ffffff00", padding:'0px',width:"90px",height:"90px",border:"none",textAlign:"center"}}>
           {this.props.buttonLabel}
         </Button>
         <Draggable
@@ -45,9 +45,8 @@ class ModalExample extends React.Component {
             <ModalHeader toggle={this.toggle} className="handle">
               QR Code
             </ModalHeader>
-            <ModalBody>
-            <Image className ="modal_image" src="assets/QRCode.jpg"></Image>
-            It will jump to Line.
+            <ModalBody style={{textAlign:"center"}}>
+            <Image className ="modal_image" src="https://ifh.cc/g/Ls9iPv.jpg" style={{textAlign:"center"}}></Image>
             </ModalBody>
             <ModalFooter>
               
