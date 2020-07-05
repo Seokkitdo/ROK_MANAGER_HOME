@@ -1,10 +1,19 @@
-.header-image {
-  width: 100%;
-  margin-top: -2em;
-  margin-bottom: 2em;
+.margin_table{
+  margin-top: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-
-.about-profile-pic {
-  float: left;
-  margin: 0 1em 1em 0;
+tbody:hover{
+  color: orange;
+  cursor: pointer;
+}
+.bottom_align{
+  position: absolute;
+  display: flex;
+  height: 10%;
+  text-align: center;
+  width:100%;
+  bottom:1px;
+  float: bottom;
+  background-color: #343A40;
 }

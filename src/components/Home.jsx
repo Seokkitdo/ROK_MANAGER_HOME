@@ -37,14 +37,10 @@ import ModalExample from './ModalExample.jsx';
     const {t} = this.props
     return (
       <container>
-<<<<<<< HEAD
-        <Jumbotron>
-        <div className="translation_drop">
-        <Maincomponent></Maincomponent>
-=======
+
                 <div className="translation_drop">
-        <MainComponent></MainComponent>
->>>>>>> a90f651708d8ffc7e7eb2f50e8532edb02a50c94
+        <Maincomponent></Maincomponent>
+
           </div>
         <Jumbotron>
     <h2>{t('head.title')}</h2>
@@ -100,7 +96,7 @@ import ModalExample from './ModalExample.jsx';
               </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="3">
-                <Card.Body style={{textAlign:"center"}}>{t('Accodion.3.context')}</Card.Body>
+                <Card.Body style={{textAlign:"left"}}>{t('Accodion.3.context')}</Card.Body>
               </Accordion.Collapse>
             </Card>
 
@@ -160,16 +156,8 @@ import ModalExample from './ModalExample.jsx';
           <br/>
           <br/>
         
-
-
-          
-         
-          
         </Jumbotron>
-        <div className = "bottom_align">
-        <h1 style={{color: "#ffffff", fontSize:"1.5rem",paddingTop:"20px"}}>Contact us: star940103@kakao.com</h1>
-        <ModalExample buttonLabel={<img src="https://seeklogo.net/wp-content/uploads/2018/10/line-logo.png" style={{width:"90px",border:"none", textAlign:"center"}}></img>}> </ModalExample>
-        </div>
+        
       </container>
     )
   }
