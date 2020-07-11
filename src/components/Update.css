@@ -1,12 +1,15 @@
 .margin_table{
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100%;
   margin-top: 60px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1rem;
+  height: 100vh;
 }
-tbody:hover{
-  color: orange;
-  cursor: pointer;
-}
+
 .bottom_align{
   position: absolute;
   display: flex;
